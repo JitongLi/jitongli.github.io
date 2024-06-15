@@ -1,0 +1,92 @@
+nav ul li {
+    font-size: 1.4em;
+    display: inline;
+    margin-right: 6em;
+}
+.navbar {
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    background-color: white;
+    max-width: 1200px;
+}
+
+.container {
+    padding-top: 3em;
+    font-size: 1.3em;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile-photo {
+    float: left;
+    width: 10%;
+    margin-top: 1em;
+    margin-right: 1em;
+    /*
+    height: 1;
+    width: 10%;
+    opacity: 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 1em;
+    */
+}
+
+a{
+    color:#3498DB;
+    TEXT-DECORATION:none;
+}
+
+p{
+  font-size: 1.2em;  
+}
+
+
+
+.navigation {
+    
+    font-size: 1.2em;
+    width: 90%;
+    position: fixed;
+    background-color: #333;
+    
+
+
+     /* 
+     background-color: #333;
+      max-width: 1200px;
+     text-decoration: none;
+     margin: 0 auto;
+
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+
+     Adjust this margin to avoid content being hidden under the fixed header */
+}
+
+ul li {
+    padding-bottom: 0.5em;
+    font-size: 1.2em;
+    /*
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: .5em;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    */
+}
+
+
+
+
