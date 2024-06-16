@@ -1,93 +1,81 @@
-nav ul li {
+body {
+    font-family: Arial, sans-serif;
     font-size: 1.4em;
-    display: inline;
-    margin-right: 6em;
-}
-.navbar {
-    position: fixed;
-    top: 0; 
-    width: 100%;
-    background-color: white;
-    max-width: 1200px;
-}
-
-.container {
-    font-family: Myriad Pro;
-    padding-top: 3em;
-    font-size: 1.3em;
-    width: 100%;
+    margin: 0;
+    padding: 0;
     max-width: 1200px;
     margin: 0 auto;
+    line-height: 1.5;
 }
 
-.profile-photo {
-    float: left;
-    width: 10%;
-    margin-top: 1em;
-    margin-right: 1em;
-    /*
-    height: 1;
-    width: 10%;
-    opacity: 
-    width: 150px;
-    height: 150px;
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #007bff;
+    padding: 10px 25px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+ul li {
+    padding-bottom: 0.5em;
+}
+
+.profile img {
+    width: 120px;
     border-radius: 50%;
-    margin-top: 1em;
-    */
+    margin-right: 1%;
+
+}
+.info {
+    max-width: 89%;
+    height: auto;
 }
 
-a{
-    color:#3498DB;
+h2 {
+    color: #343a40;
+}
+
+a {
+    color: #007bff;
     TEXT-DECORATION:none;
 }
 
-p{
-  font-size: 1.2em;  
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile img {
+        margin: 0 0 20px 0;
+    }
 }
-
-
-
-.navigation {
-    
-    font-size: 1.2em;
-    width: 90%;
-    position: fixed;
-    background-color: #333;
-    
-
-
-     /* 
-     background-color: #333;
-      max-width: 1200px;
-     text-decoration: none;
-     margin: 0 auto;
-
-    width: 100%;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    z-index: 1000;
-    top: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 100px;
-
-
-     Adjust this margin to avoid content being hidden under the fixed header */
-}
-
-ul li {
-    padding-bottom: 0.5em;
-    font-size: 1.2em;
-    /*
-    border-radius: 5px;
-    background: #fff;
-    margin-bottom: .5em;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    */
-}
-
-
-
-
