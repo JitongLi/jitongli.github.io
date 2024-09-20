@@ -13,7 +13,7 @@
 		<td  align="center"><b>录用率</b></td> 
 		<td  align="center"><b>DDL</b></td> 
 		<td  align="center"><b>主要主题</b></td> 
-		<td  align="center"><b>相关性</b></td> 
+		<td  align="center"><b>相关度</b></td> 
 	</tr>
 	<tr>
 	   <td rowspan=4 align="center"><b>计算机网络</b></td> 
