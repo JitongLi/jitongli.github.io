@@ -28,7 +28,7 @@
 		<td align="center"><a href="http://dblp.uni-trier.de/db/conf/nsdi/">NSDI</td>
 		<td align="center">Symposium on Network System Design and Implementation</td>
 		<td align="center">112/601=18.6%</td>
-		<td align="center">春：5.4；秋：9.21</td>
+		<td align="center">5.4｜9.21</td>
 		<td align="center">网络系统；网络管理；网络技术</td>
 		<td align="center"> 5 </td>
 	</tr>
@@ -44,7 +44,7 @@
 		<td align="center"><a href="http://dblp.uni-trier.de/db/conf/mobicom/">MobiCom</td>
 		<td align="center">ACM International Conference on Mobile Computing and Networking</td>
 		<td align="center">62/366=17%</td>
-		<td align="center">夏：8.25；冬：3.15</td>
+		<td align="center">8.25｜3.15</td>
 		<td align="center">移动计算；移动系统；移动应用；无线网络</td>
 		<td align="center"> 1 </td>
 	</tr>
