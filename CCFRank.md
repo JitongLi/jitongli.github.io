@@ -1,6 +1,6 @@
 # 中国计算机学会(China Computer Federation，CCF) 推荐国际学术会议及期刊
 ## 会议
-### CCF A 
+### CCF A   
 
 <table border=1>
 	<tr>
