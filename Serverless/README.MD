@@ -1,1 +1,0 @@
-About serverless computing
