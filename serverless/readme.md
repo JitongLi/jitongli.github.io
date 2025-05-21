@@ -1,1 +1,1 @@
-this part is about serverless computing.
+This part is about serverless.
